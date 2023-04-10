@@ -6,6 +6,11 @@ services:
     build: 
       context: .
       dockerfile: Dockerfile.dev
-
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./src/app/src
+    environment:
+      - REACT_APP_NAME=name-dev
     # env_file:
     #   - ./.env

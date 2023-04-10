@@ -5,7 +5,10 @@ services:
     # tty: true
     build: 
       context: .
-      dockerfile: Dockerfile.dev
-
+      dockerfile: Dockerfile.prod
+      args:
+        - REACT_APP_NAME=name-prod
+    ports:
+      - "8080:80"
     # env_file:
     #   - ./.env
