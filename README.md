@@ -89,7 +89,7 @@ docker run --env-file ./.env -v $(pwd)/src:/app/src -d -p 3000:3000 --name react
 
 - Build for production with NGINX:
 
-Create Dockerfile.dev and Dockerfile.prod separately
+- Create Dockerfile.dev and Dockerfile.prod separately
 
   npm install
 
