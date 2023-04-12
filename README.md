@@ -89,7 +89,7 @@ docker-compose up -d --build
 
 - Build for production with NGINX:
 
-Create Dockerfile.dev andDockerfile.prod separately
+Create Dockerfile.dev and Dockerfile.prod separately
 
 npm install
 
