@@ -73,19 +73,19 @@ docker run --env-file ./.env -v $(pwd)/src:/app/src -d -p 3000:3000 --name react
 
 - Docker Compose
 
-Create a file name called docker-compose.yml
+  Create a file name called docker-compose.yml
 
-1. Run compose docker
+  1. Run compose docker
 
-docker-compose up -d
+  docker-compose up -d
 
-2. End compose docker
+  2. End compose docker
 
-docker-compose down
+  docker-compose down
 
-3. To build and run compose docker
+  3. To build and run compose docker
 
-docker-compose up -d --build
+  docker-compose up -d --build
 
 - Build for production with NGINX:
 
